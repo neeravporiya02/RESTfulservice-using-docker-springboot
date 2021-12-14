@@ -2,6 +2,19 @@
 This repository is on RESTful service using Docker and Spring Boot. For the front end I have used HTML, Jquery and Ajax to display data from Json.
 This repository has two folders one which has the HTML file in it and the other with Spring Boot API file.
 
+## About the application
+So this is a Spring Boot application with a hardcode Json data (Customer.json) and it consists of 4 GET API menthods.
+
+### The application end points used are
+1. /customers : Gets us list of customers
+2. /customers/{id} : Gets a particular user details
+3. /customers/{id}/orders : Get orders for particular user.
+4. /customers/{userid}/orders/{orderid} : Here we fetch one particular order of a particular user.
+
+We then create a Docker file and build and run it to create a Docker Container which will fetch us the above data.
+
+Then we use a webpage (simple front end UI) to show the endpoints in action.
+
 ## Steps to follow
 1. Unzip the file.
 2. First build the docker file by using command
