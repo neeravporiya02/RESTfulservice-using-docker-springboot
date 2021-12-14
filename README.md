@@ -2,6 +2,9 @@
 This repository is on RESTful service using Docker and Spring Boot. For the front end I have used HTML, Jquery and Ajax to display data from Json.
 This repository has two folders one which has the HTML file in it and the other with Spring Boot API file.
 
+## Files Included
+1. RestAPI folder which has the Spring Boot application and the Docker file.
+2. It also consists of HTML file (UI)
 ## About the application
 So this is a Spring Boot application with a hardcode Json data (Customer.json) and it consists of 4 GET API menthods.
 
